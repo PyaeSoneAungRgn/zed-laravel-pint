@@ -259,9 +259,9 @@ return (new Config())
     ->setUsingCache(true);
 ```
 
-## Setup phpactor
+## Enable PHP-CS-FIXER
 
-Create a new file at `~/.config/phpactor/phpactor.json`
+Create a new file at `~/.config/phpactor/phpactor.json`.
 
 ```json
 {
