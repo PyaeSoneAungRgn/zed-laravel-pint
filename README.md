@@ -1,12 +1,12 @@
-# Proper Way to Format PHP in Zed (Laravel Pint)
+## Proper Way to Format PHP in Zed (Laravel Pint)
 
-## phpactor
+### phpactor
 
 Zed includes two LSPs for PHP: phpactor and intelephense. phpactor integrates with PHP-CS-Fixer, a tool that automatically fixes your code to follow standards.
 
 Laravel Pint is built on top of PHP-CS-Fixer, meaning you can format your code like Laravel Pint with the same rules while using phpactor.
 
-## Install PHP-CS-Fixer
+### Install PHP-CS-Fixer
 
 ```bash
 mkdir -p tools/php-cs-fixer
@@ -259,7 +259,7 @@ return (new Config())
     ->setUsingCache(true);
 ```
 
-## Enable PHP-CS-FIXER
+### Enable PHP-CS-FIXER
 
 Create a new file at `~/.config/phpactor/phpactor.json`.
 
@@ -272,7 +272,7 @@ Create a new file at `~/.config/phpactor/phpactor.json`.
 }
 ```
 
-## Update Zed Setting
+### Update Zed Setting
 
 ```json
 {
