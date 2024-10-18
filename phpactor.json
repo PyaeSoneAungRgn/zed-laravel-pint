@@ -1,0 +1,6 @@
+{
+    "$schema": "",
+    "language_server_php_cs_fixer.enabled": true,
+    "language_server_php_cs_fixer.bin": "/Users/pyaesoneaung/tools/php-cs-fixer/vendor/bin/php-cs-fixer",
+    "language_server_php_cs_fixer.config": "/Users/pyaesoneaung/tools/php-cs-fixer/php-cs-fixer.php"
+}
