@@ -290,3 +290,8 @@ Create a new file at `~/.config/phpactor/phpactor.json`.
   }
 }
 ```
+
+https://github.com/user-attachments/assets/6345ef0a-e4a4-49f9-90e4-a830a42de418
+
+
+
