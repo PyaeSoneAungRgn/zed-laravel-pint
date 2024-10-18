@@ -13,7 +13,7 @@ mkdir -p tools/php-cs-fixer
 composer require --working-dir=tools/php-cs-fixer friendsofphp/php-cs-fixer
 ```
 
-After installing PHP-CS-Fixer, you can configure it by creating a new file at `~/.config/php-cs-fixer/php-cs-fixer.php`.
+Create a new file at `~/.config/php-cs-fixer/php-cs-fixer.php`.
 
 ```php
 <?php
