@@ -1,5 +1,34 @@
 ## Proper Way to Format PHP in Zed (Laravel Pint)
 
+Update: Sep 24, 2025
+### PrettyPHP
+
+[pretty-php](https://github.com/lkrms/pretty-php) is a fast, deterministic, minimally configurable code formatter for PHP, written in PHP.
+
+### Install PrettyPHP
+
+`brew install lkrms/misc/pretty-php`
+
+### Update Zed Setting
+
+```json
+{
+  // other settings...
+  "languages": {
+    "PHP": {
+      "formatter": {
+        "external": {
+          "command": "pretty-php",
+          "arguments": ["--stdin-filename", "{buffer_path}", "--output", "-", "--preset", "laravel"]
+        }
+      }
+    }
+  }
+}
+```
+
+___
+Old: Oct 18, 2024
 ### phpactor
 
 Zed includes two LSPs for PHP: phpactor and intelephense. phpactor integrates with PHP-CS-Fixer, a tool that automatically fixes your code to follow standards.
