@@ -1,5 +1,12 @@
 ## Proper Way to Format PHP in Zed (Laravel Pint)
 
+Update: Oct 2, 2025 🔥🔥🔥
+
+[MAGO](https://mago.carthage.software/) The Oxidized PHP Toolchain. A blazing fast linter, formatter, and static analyzer for PHP, written in Rust.
+
+Documentation: https://mago.carthage.software/recipes/zed
+
+---
 Update: Sep 24, 2025
 ### PrettyPHP
 
